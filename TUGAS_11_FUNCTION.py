@@ -123,10 +123,29 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 5,
    "id": "9dd66a06-be68-40e2-a354-4e6d008e26d8",
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "--- Uji Fungsi ganti_vokal ---\n",
+      "Input: 'Aku Cinta Kamu', Opsi: 1\n",
+      "Output: 'Ak|_| C1nt4 K4m|_|'\n",
+      "------------------------------\n",
+      "Input: 'Aku Cinta Kamu', Opsi: 2\n",
+      "Output: '4ku Cinta Kamu'\n",
+      "------------------------------\n",
+      "Input: 'BELAJAR PYTHON ITU ASYIK', Opsi: 1\n",
+      "Output: 'BELAJAR PYTHON ITU ASYIK'\n",
+      "------------------------------\n",
+      "Input: 'BELAJAR PYTHON ITU ASYIK', Opsi: 2\n",
+      "Output: 'B3L4J4R PYTH0N 1T|_| 4SY1K'\n"
+     ]
+    }
+   ],
    "source": [
     "##3. Mengganti huruf vokal dengan simbol tertentu\n",
     "\n",
@@ -203,6 +222,14 @@
     "print(f\"Input: '{kalimat_lain}', Opsi: 2\")\n",
     "print(f\"Output: '{output_opsi_2_lain}'\") # Output: \"B3L4J4R PYTH0N 1T|_| 4SY1K\""
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cb4bd7f8-48d7-4e7f-8934-938c3fe54b13",
+   "metadata": {},
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
